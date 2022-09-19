@@ -20,8 +20,8 @@ function App() {
     <main>
       <section className="menu section">
         <div className="title">
-          <h2>our menu</h2>
-          <div className="underline"></div>
+          <h2>Restaurant menu</h2>
+
         </div>
         <Categories categories={categories} filterItems={filterItems} />
         <Menu items={menuItems} />
